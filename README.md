@@ -26,6 +26,10 @@ This repository contains the code for an API built using FastAPI in Python. This
 
 **Sensitive Data**: All sensitive data like API keys and passwords are not included in this repository. If you wish to try out this application, please visit [recommendationAPIs](http://ec2co-ecsel-1xcozup9p9r0a-1119021606.eu-central-1.elb.amazonaws.com/docs).
 
+**Credentials**
+- username: user
+- password: ef03dc802d25031e
+
 ## Landing Page
 
 When you navigate to the root URL of the API, you will be greeted with a custom HTML/CSS landing page that displays the logo of the company who commissioned this API.
