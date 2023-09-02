@@ -24,7 +24,7 @@ This repository contains the code for an API built using FastAPI in Python. This
 
 ## Important Note
 
-**Sensitive Data**: All sensitive data like API keys and passwords are not included in this repository. If you wish to try out this application, please visit [www.link.com](http://www.link.com).
+**Sensitive Data**: All sensitive data like API keys and passwords are not included in this repository. If you wish to try out this application, please visit [recommendationAPIs](http://ec2co-ecsel-1xcozup9p9r0a-1119021606.eu-central-1.elb.amazonaws.com/docs).
 
 ## Landing Page
 
