@@ -7,6 +7,10 @@ This repository contains the source code for a FastAPI based API that provides p
 1. **raccomandazione_per_utente:** This focuses solely on matching artworks to a user's preferences.
 2. **raccomandazione_per_contenuto:** This not only considers the user's preferences but also takes into account the metatag information of artworks, offering a more nuanced recommendation.
 
+## Description
+
+This repository contains the code for an API built using FastAPI in Python. This API provides recommendations for artworks located in Naples, based on user preferences stored in a third-party database. The API connects to this database to retrieve user preferences using their User ID. Recommendations are generated using a cosine similarity matrix algorithm.
+
 ## Features
 
 - FastAPI based RESTful API
@@ -17,6 +21,10 @@ This repository contains the source code for a FastAPI based API that provides p
 - Comprehensive tests for API functionality
 - Data visualization using Matplotlib
 - Connection to third-party database for user information retrieval
+
+## Important Note
+
+**Sensitive Data**: All sensitive data like API keys and passwords are not included in this repository. If you wish to try out this application, please visit [www.link.com](http://www.link.com).
 
 ## Landing Page
 
@@ -37,19 +45,16 @@ This repository includes a batch script that automates the process of building a
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/alfon96/naples_artworks_recommendation_APIs.git
-
+   git clone https://github.com/alfon96/naples_artworks_recommendation_APIs.git
 
 2. Navigate to the directory:
-cd naples-artwork-recommender
+   cd naples-artwork-recommender
 
 3. Build the Docker image:
-docker build -t naples-artwork-recommender .
-
+   docker build -t naples-artwork-recommender .
 
 4. Run the container:
-docker run -p 8000:8000 naples-artwork-recommender
-
+   docker run -p 8000:8000 naples-artwork-recommender
 
 ## Usage
 
@@ -66,8 +71,6 @@ Copy code
 ## Data Visualization
 
 Matplotlib is used to visualize the results of the recommendations, which can provide useful insights into the effectiveness of the recommendation algorithm, the quality of artwork metatags, and the database goodness.
-
-
 
 ---
 
